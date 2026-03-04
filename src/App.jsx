@@ -7,8 +7,8 @@ import { useState, useEffect, useCallback, useRef } from "react";
       Leave empty for local-only mode.
    ═══════════════════════════════════════════════════════════════ */
 
-const SUPABASE_URL = "";
-const SUPABASE_KEY = "";
+const SUPABASE_URL = "https://mpwmssydgozkjcxkzyin.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1wd21zc3lkZ296a2pjeGt6eWluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2MjUxMzUsImV4cCI6MjA4ODIwMTEzNX0.ZBv4qXuQflz33UUWyUSK9eaUkMa-gPy7sB5yRkLVwOg";
 const SYNC_INTERVAL = 4000;
 const SUPABASE_ON = SUPABASE_URL.length > 0 && SUPABASE_KEY.length > 0;
 const LOCAL_KEY = "vouchers-do-amor-v4";
