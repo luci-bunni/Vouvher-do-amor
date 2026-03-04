@@ -1,6 +1,6 @@
 {
-  "name": "Vouchers do Amor",
-  "short_name": "Love Vouchers",
+  "name": "Vouchers Love",
+  "short_name": "Luci's Vouchers",
   "description": "Ducku & Bunni's love voucher app",
   "start_url": "/",
   "display": "standalone",
